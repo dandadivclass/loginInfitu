@@ -1,0 +1,39 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* elemento pai*/
+    .Flexbox-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    /* se o elemento não quebrar ou mudar de tamanho, usar flex-wrap: wrap*/
+        justify-content: space-between;
+        flex-direction: row; /*para empilhar*/
+    }
+
+    /*elemento filho*/
+    .flexbox {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(81, 116, 82);
+        color: black;
+        border-radius: 18px;
+        margin: 12px;
+        line-height: 200px;
+        text-align: center;
+    }
+
+    .flexbox1 {
+        justify-content: space-between;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(81, 116, 82);
+        color: black;
+        border-radius: 18px;
+        margin: 12px;
+        line-height: 200px;
+        text-align: center;
+    }

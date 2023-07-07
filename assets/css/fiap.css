@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(236, 236, 236);
+    font-size: 18px;
+}
+
+#div_CSS {
+    background-color: rgb(223, 208, 188);
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px #bebebe;
+    border-radius: 15px;
+}
+#solo {
+    width: 100%;
+    height: 900px;
+    /*background-color: yellow; */
+    margin: 20px auto; 
+    background-image: url(../imgs/livro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-size: cover; */
+    /*background-size: 20px altura 30px largura; */
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+#parag {
+    background-color: rgb(202, 194, 194);
+    margin: 10px;
+}
+
+#div_CORES {
+    background-color: aquamarine;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 10px groove #979ce0;
+    box-sizing: border-box;
+}
+
+#div_ORDENADAS {
+    background-color: rgb(255, 127, 249);
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#div_IMGS {
+    background-color: rgb(165, 164, 255);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 25px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    line-height: 25px;
+}
+
+ol {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    
+}
+
+.gato_laranja {
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 35px;
+    filter: blur(1px);
+    /* filter: drop-shadow(8px 9px 10px rgb(100, 100, 100)); */
+}
+
+.gato_preto {
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50px;
+    filter: brightness(80%);
+    /*filter: contrast(90%); */
+    filter: drop-shadow(8px 9px 10px rgb(100, 100, 100));
+}
+
+#rgb {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(65, 102, 91);
+}
+
+#hexa {
+    font-family: 'Roboto Mono', monospace;
+    color: #48148d;
+}
+
+#hsl {
+    font-family: 'Roboto Mono', monospace;
+    color: hsl(320, 67%, 56%)
+}
+
+#hwb {
+    font-family: 'Roboto Mono', monospace;
+    color: hwb(231 6% 47%)
+}
+
+#nova_div {
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), 
+    url(../imgs/bela-foto-de-um-campo-verde-coberto-de-flores-amarelas-perto-das-cerejeiras_181624-24215.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 9px;
+}
+
+#nova_div h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 45px;
+    margin: 50px 30px;
+    color: #fff;
+}
+
+#nova_div p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px 30px 60px;
+    width: 40%;
+    color: #fff;
+}
+
+#nova_div a {
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
+    margin: 30px;
+    border: 2px solid rgb(82, 147, 211);
+    background-color: rgb(82, 147, 211);
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 9px;
+    font-weight: 200;
+}
+
+#nova_div a:hover {
+    background-color: transparent;
+}
+
+.container {
+    border: 1px solid #929292;
+    margin: 10px auto; 
+    width: 50%;
+    height: 90px;
+    text-align: center;
+    border-radius: 9px;
+    padding: 30px;
+}
+
+.bg-pink {
+    background-color: rgb(252, 133, 173);
+}
+
+.bg-purple {
+    background-color: rgb(196, 140, 196);
+}
+
+.bg-grey {
+    background-color: rgb(172, 171, 171);
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ccc;
+    font-size: 25px;
+}
+
+.icones {
+    background-color: #ccc;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #dfbfbf;
+    text-align: center; 
+    border-radius: 5px;
+}
+
+.icon {
+    border: 1px solid #b82c82;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 35px;
+    margin: 0 20px;
+    color: #666;   
+    transition: .6s;
+}
+
+.icon:hover {
+    background-color: #dc143c;
+    color: #fff;
+    border-color: transparent;
+}
+
+:root {
+    --color-light: #f4f4f4;
+    --color-dark: #333333;
+    --color-green: #4c7570;
+    --transition: .5s;
+    --space-10: 1rem;
+    --space-20: 2rem;
+    --space-40: 4rem;
+    --radius: 0.7rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#icones {
+    width: 80%;
+    min-height: 30vh;
+    margin: var(--space-40) auto;
+    padding: var(--space-40);
+    background-color: var(--color-dark);
+    text-align: center;
+    border-radius: var(--radius);
+}
+
+#icones h1 {
+    font-size: 6vmin;
+    color: var(--color-light);
+    margin-bottom: var(--space-20);
+}
+
+.icons {
+    font-size: 7vmin;
+    color: var(--color-light);
+    margin: var(--space-10);
+    padding: var(--space-20);
+    border: 1px solid var(--color-light);
+    border-radius: var(--radius);
+    transition: var(--transition);
+} 
+
+.icons:hover {
+    border-color: var(--color-green);
+    background-color: var(--color-green);
+}
+
+#dados_pessoais {
+    background-image: linear-gradient(#711991, #aa6eb3);
+    color:#ffffff;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+fieldset legend {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+fieldset label {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;family=Poppins&amp;display=swap');
+:root {
+    --color-light: #F3F4F5;
+    --color-pink: #dc143c;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.container h1, h2 {
+    margin: 0 .5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-pink);
+}
+.box-form {
+    margin: .5rem
+}
+.box-item {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0;
+}
+.form23-label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+.form23-control {
+    width: 100%;
+    border: 0;
+    background-color: var(--color-light);
+    height: 3.5rem;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+.form23-btn {
+    width: 100%;
+    margin: 0.8rem 0;
+    border: 0;
+    background-color: var(--color-pink);
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.responsiva {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #333333;
+}
+
+.responsiva img {
+    width: 100%; 
+}
+
+@media(max-widht: 1000px) {
+
+    .responsiva {
+        background-color: #aa6eb3;
+        color: whitesmoke;
+    }
+
+    .responsiva img {
+        width: 300%;
+    }
+        
+}
